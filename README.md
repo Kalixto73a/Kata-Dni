@@ -1,53 +1,53 @@
 # 🪪Kata-Dni
-## The objetive of this proyect is to calculate the letter of a Dni with only the numbers.
+The objetive of this proyect is to calculate the letter of a Dni with only the numbers.
 
-## In this project I used Mysql but fell free to change it in the .env.example
+In this project I used Mysql but fell free to change it in the .env.example
 
-## The entire operation of this project is based on API
+The entire operation of this project is based on API
 
 ---
 
 # 📖OVERVIEW
 
-## The number of the Dni must be a number of 8 digits between: 00000000 and 99999999.
+The number of the Dni must be a number of 8 digits between: 00000000 and 99999999.
 
 
-## 🌄Let see the results on Postman:
+🌄Let see the results on Postman:
 
 
-### This is the correct response:
+This is the correct response:
 
 
 ![image](public/img/Calculate200.png)
 
 
-### This is the response if you don´t fill the content with any number:
+This is the response if you don´t fill the content with any number:
 
 
 ![image](public/img/Calculate400NoNumber.png)
 
 
-### This is the response if you put any letter on the 8 digits number:
+This is the response if you put any letter on the 8 digits number:
 
 
 ![image](public/img/Calculate400WithLetter.png)
 
 
-### This is the response if there is no letter on the database for that number:
+This is the response if there is no letter on the database for that number:
 
 
 ![image](public/img/Calculate404LetterNotFound.png)
 
 
 # ⚙️Instalation requiremets
-## To try this project on local you will need:
+To try this project on local you will need:
+
     1. PowerShell (or any other terminal).
     2. Xampp (or any other database manager).
     3. Xdebug (for the test coverage).
     4. Postman (or any other API tester).
     5. Node.js.
     6. Composer.
-
 ## ⚙️Instalation
 
 ### 1. Clone the repository:
